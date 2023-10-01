@@ -1,0 +1,80 @@
+
+
+::ng-deep body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.jayasurya_name{
+    #svg {
+        height: 72px;
+        width: 350px;
+        stroke: #E35336;
+        fill:#E35336;
+        fill-opacity: 0;
+        stroke-width: 3px;
+        stroke-dasharray: 4500;
+        animation: draw 22s ease;
+      }
+      
+      @keyframes draw {
+        0% {
+          stroke-dashoffset: 4500;
+        }
+        100% {
+          stroke-dashoffset: 0;
+        }
+      }
+      
+}
+
+
+.heart{
+    #svg {
+        height: 500px;
+        width: 560px;
+        stroke: #E35336;
+        fill:#E35336;
+        fill-opacity: 0;
+        stroke-width: 3px;
+        stroke-dasharray: 4500;
+        animation: draw 10s ease;
+      }
+      
+      @keyframes draw {
+        0% {
+          stroke-dashoffset: 4500;
+        }
+        100% {
+          stroke-dashoffset: 0;
+        }
+      }
+      
+}
+
+
+
+
+.kalpana_name{
+    #svg {
+        width: 479px;
+        stroke: #E35336;
+        fill:#E35336;
+        fill-opacity: 0;
+        stroke-width: 3px;
+        stroke-dasharray: 4500;
+        animation: draw 22s ease;
+      }
+      
+      @keyframes draw {
+        0% {
+          stroke-dashoffset: 4500;
+        }
+        100% {
+          stroke-dashoffset: 0;
+        }
+      }
+      
+}
